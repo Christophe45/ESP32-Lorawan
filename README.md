@@ -7,3 +7,6 @@ This project is to make a connected hive that can control the weight, the intern
 
 The schematic of the Lorawan is:
 ![alt text](https://github.com/Christophe45/ESP32-Lorawan/blob/master/pictures/schema1.JPG)
+
+PCB 3D :
+![alt text](https://github.com/Christophe45/ESP32-Lorawan/blob/master/pictures/loranode esp32 V3.jpg)
