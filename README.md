@@ -16,3 +16,8 @@ PCB 3D :
 New version on test with a GPS module NOE6NV2 and an accelerometer MPU6050 used for alarm detection when the hive is moved.
 
 schematic:
+![alt text](https://github.com/Christophe45/ESP32-Lorawan/blob/master/pictures/SchemaV3.JPG)
+
+PCB 3D :
+
+![alt text](https://github.com/Christophe45/ESP32-Lorawan/blob/master/pictures/loranode-esp32-V3.jpg)
