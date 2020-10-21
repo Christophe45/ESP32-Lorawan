@@ -21,3 +21,5 @@ schematic:
 PCB 3D :
 
 ![alt text](https://github.com/Christophe45/ESP32-Lorawan/blob/master/pictures/loranode-esp32-V3-GPS.jpg)
+
+![alt text](https://github.com/Christophe45/ESP32-Lorawan/blob/master/pictures/balance.jpg)
