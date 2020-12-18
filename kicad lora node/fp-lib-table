@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 18650)(type KiCad)(uri ${KIPRJMOD}/18650.pretty)(options "")(descr ""))
+  (lib (name "lora node esp32")(type KiCad)(uri "${KIPRJMOD}/MPU6050.pretty/lora node esp32.pretty")(options "")(descr ""))
+  (lib (name MPU6050)(type KiCad)(uri ${KIPRJMOD}/MPU6050.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name tp4056)(type Legacy)(uri C:/Users/cd06631/Documents/test/kicad-libs-master/tp4056.lib)(options "")(descr ""))
+  (lib (name lora-node-esp32-rescue)(type Legacy)(uri "${KIPRJMOD}/lora node esp32-rescue.lib")(options "")(descr ""))
+  (lib (name lora-node-esp32-smd-rescue)(type Legacy)(uri "${KIPRJMOD}/lora node esp32 smd-rescue.lib")(options "")(descr ""))
+)

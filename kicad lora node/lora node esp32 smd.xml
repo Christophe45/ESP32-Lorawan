@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\cd06631\Documents\kicad\lora node esp32\lora node esp32 smd.sch</source>
+    <date>11/02/2020 08:25:12</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>lora node esp32 smd.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SW2">
+      <value>PROG</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD25C8C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="SW_Push-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD28C8C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-WROOM-32</value>
+      <footprint>esp32-wroom:ESP32-WROOM-32</footprint>
+      <datasheet>https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="ESP32-WROOM-32-RF_Module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DCEADA7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD3A6FE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MCP1700-3302E_TO92</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="MCP1700-3302E_TO92-Regulator_Linear" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD3F950</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_Elec_5x5.4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD4B95E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_Elec_5x5.4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD4CF80</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RFM95W-868S2</value>
+      <footprint>RF_Module:HOPERF_RFM9XW_SMD</footprint>
+      <datasheet>https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="RFM95W-868S2-RF_Module" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD90DFC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_Coaxial_Power</value>
+      <footprint>Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="Conn_Coaxial_Power-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA442A</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Prog</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="Conn_01x04-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDAF024</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>BME280 sensor</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="Conn_01x04-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD5C712</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>solar connector</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD6FF9E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Battery</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD78CDE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TP4056</value>
+      <footprint>TP4056:4056E_LiIon_loader_SMT</footprint>
+      <libsource lib="tp4056 bis" part="TP4056" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD573B2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2,7K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDBE82B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDC2023</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDD1CA5</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>3M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDD1CAB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC337</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337.pdf</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="BC337-Transistor_BJT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DD71462</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA526A</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA557E</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="MountingHole-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA56B9</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDA9839</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDADC1A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>DS18B20</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-4_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="Conn_01x03-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDF4727</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DDFBE76</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>HX711</value>
+      <footprint>hx711:HX711 module</footprint>
+      <libsource lib="hx711" part="HX711" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DE6E279</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="lora-node-esp32-smd-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E20D845</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Load weight 200Kg</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-5_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E25D3D7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hx711" part="HX711">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HX711</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="DT" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="E+" type="output"/>
+        <pin num="6" name="E-" type="output"/>
+        <pin num="7" name="A-" type="output"/>
+        <pin num="8" name="A+" type="output"/>
+        <pin num="9" name="B-" type="output"/>
+        <pin num="10" name="B+" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="BC337-Transistor_BJT">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC337-Transistor_BJT</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="CP1_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="Conn_01x03-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="Conn_01x04-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="Conn_Coaxial_Power-Connector">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial_Power-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="ESP32-WROOM-32-RF_Module">
+      <footprints>
+        <fp>ESP32?WROOM?32*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32-RF_Module</field>
+        <field name="Footprint">RF_Module:ESP32-WROOM-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="SENSOR_VP" type="input"/>
+        <pin num="5" name="SENSOR_VN" type="input"/>
+        <pin num="6" name="IO34" type="input"/>
+        <pin num="7" name="IO35" type="input"/>
+        <pin num="8" name="IO32" type="BiDi"/>
+        <pin num="9" name="IO33" type="BiDi"/>
+        <pin num="10" name="IO25" type="BiDi"/>
+        <pin num="11" name="IO26" type="BiDi"/>
+        <pin num="12" name="IO27" type="BiDi"/>
+        <pin num="13" name="IO14" type="BiDi"/>
+        <pin num="14" name="IO12" type="BiDi"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="IO13" type="BiDi"/>
+        <pin num="17" name="SHD/SD2" type="BiDi"/>
+        <pin num="18" name="SWP/SD3" type="BiDi"/>
+        <pin num="19" name="SCS/CMD" type="BiDi"/>
+        <pin num="20" name="SCK/CLK" type="BiDi"/>
+        <pin num="21" name="SDO/SD0" type="BiDi"/>
+        <pin num="22" name="SDI/SD1" type="BiDi"/>
+        <pin num="23" name="IO15" type="BiDi"/>
+        <pin num="24" name="IO2" type="BiDi"/>
+        <pin num="25" name="IO0" type="BiDi"/>
+        <pin num="26" name="IO4" type="BiDi"/>
+        <pin num="27" name="IO16" type="BiDi"/>
+        <pin num="28" name="IO17" type="BiDi"/>
+        <pin num="29" name="IO5" type="BiDi"/>
+        <pin num="30" name="IO18" type="BiDi"/>
+        <pin num="31" name="IO19" type="BiDi"/>
+        <pin num="32" name="NC" type="NotConnected"/>
+        <pin num="33" name="IO21" type="BiDi"/>
+        <pin num="34" name="RXD0/IO3" type="BiDi"/>
+        <pin num="35" name="TXD0/IO1" type="BiDi"/>
+        <pin num="36" name="IO22" type="BiDi"/>
+        <pin num="37" name="IO23" type="BiDi"/>
+        <pin num="38" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="MCP1700-3302E_TO92-Regulator_Linear">
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1700-3302E_TO92-Regulator_Linear</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="MountingHole-Mechanical">
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="RFM95W-868S2-RF_Module">
+      <footprints>
+        <fp>HOPERF*RFM9XW*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RFM95W-868S2-RF_Module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="MISO" type="output"/>
+        <pin num="3" name="MOSI" type="input"/>
+        <pin num="4" name="SCK" type="input"/>
+        <pin num="5" name="NSS" type="input"/>
+        <pin num="6" name="RESET" type="BiDi"/>
+        <pin num="7" name="DIO5" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="ANT" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="DIO3" type="BiDi"/>
+        <pin num="12" name="DIO4" type="BiDi"/>
+        <pin num="13" name="3.3V" type="power_in"/>
+        <pin num="14" name="DIO0" type="BiDi"/>
+        <pin num="15" name="DIO1" type="BiDi"/>
+        <pin num="16" name="DIO2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="lora-node-esp32-smd-rescue" part="SW_Push-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tp4056 bis" part="TP4056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN_+" type="power_in"/>
+        <pin num="2" name="IN_-" type="power_in"/>
+        <pin num="3" name="BAT_+~" type="output"/>
+        <pin num="4" name="BAT_-" type="output"/>
+        <pin num="5" name="OUT_+" type="power_out"/>
+        <pin num="6" name="OUT_-" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="hx711">
+      <uri>C:\Users\cd06631\Documents\kicad\lora node esp32/hx711.lib</uri>
+    </library>
+    <library logical="lora-node-esp32-smd-rescue">
+      <uri>C:\Users\cd06631\Documents\kicad\lora node esp32/lora node esp32 smd-rescue.lib</uri>
+    </library>
+    <library logical="tp4056 bis">
+      <uri>C:\Users\cd06631\Documents\kicad\lora node esp32/tp4056 bis.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VBAT+">
+      <node ref="U4" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="3" name="0">
+      <node ref="SW1" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J6" pin="5"/>
+      <node ref="U1" pin="38"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="4" name="/Vin-">
+      <node ref="U4" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="5" name="/Vin+">
+      <node ref="U4" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="6" name="/SDA">
+      <node ref="U1" pin="33"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="7" name="VCC">
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="27"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="10" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad28)">
+      <node ref="U2" pin="16"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="12" name="Net-(U5-Pad9)">
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="13" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="14" name="Net-(J6-Pad3)">
+      <node ref="U5" pin="7"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="15" name="Net-(R1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="16" name="Net-(U5-Pad10)">
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="17" name="Net-(J6-Pad2)">
+      <node ref="J6" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="18" name="Net-(J6-Pad1)">
+      <node ref="J6" pin="1"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="19" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="21" name="/SCL">
+      <node ref="U1" pin="36"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad31)">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad30)">
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="28" name="/DS18">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="33" name="/CheckVbat+">
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad29)">
+      <node ref="U1" pin="29"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad16)">
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="39" name="/Prog">
+      <node ref="U1" pin="25"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="40" name="/SLK">
+      <node ref="U1" pin="11"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="44" name="/DT">
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="45" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad13)">
+      <node ref="U2" pin="15"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="48" name="/deepsleep">
+      <node ref="R5" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="51" name="/TXD">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="52" name="/RXD">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+  </nets>
+</export>
